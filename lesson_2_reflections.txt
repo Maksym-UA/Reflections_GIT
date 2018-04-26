@@ -5,3 +5,4 @@ a new staging area gets created
 
 How is the staging area different from the working directory and the repository? 
 What value do you think it offers?
+Staging area is a temporary step/buffer to hold changes before committing them.
