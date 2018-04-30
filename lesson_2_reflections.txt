@@ -6,3 +6,17 @@ a new staging area gets created
 How is the staging area different from the working directory and the repository? 
 What value do you think it offers?
 Staging area is a temporary step/buffer to hold changes before committing them.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Need to check what file/change by comparing it with commit 1 (most recent) is in the stage area before commiting
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+This is a helpful tool to keep several versions of the code so it is always easy to roll back.
+
+How do the diagrams help you visualize the branch structure?
+It helps to see the relation of hirarchy of the commits
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+All the commits on both branches were saved in a new master branch.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
